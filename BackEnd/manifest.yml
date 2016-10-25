@@ -1,0 +1,7 @@
+---
+applications:
+- name: heat-map
+  memory: 512M
+  host: heat-map
+  path: target/heat-map-1.4.1.RELEASE.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
